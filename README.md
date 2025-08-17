@@ -1,83 +1,84 @@
-# CISSP Study Resources
+# CISSP 学习资源
 
-Material and Resources pursing CISSP Certification!
+**CISSP学习资源**是我在努力获得认证过程中收集的学习和参考材料以及我的笔记的集合。我于2025年4月通过了100个问题的考试，但我想继续改进并增加这个资源的价值，以使您的认证过程更容易。
 
-**CISSP Study Resources** is a collection of study and reference materials and my notes gathered as I worked towards certification. I passed the exam at 100 questions in April 2025, but I want to continue to improve and add value to this resource to make your certification process easier.
+**注意**：本项目是 [jefferywmoore/CISSP-Study-Resources](https://github.com/jefferywmoore/CISSP-Study-Resources) 仓库的汉化版本，为个人学习自用。所有内容版权归原作者所有。
 
-Because there is so much material available, it can be a bit daunting to know where to begin, and what really merits your time and effort. No compilation is exhaustive, but my goal is to gather information that will be useful and encouraging to you as you undertake this effort. At the least, it provides a list of resources, tests, and reference material to review.
+因为有太多的材料可用，所以知道从哪里开始，以及什么真正值得你花费时间和精力，可能会有点令人生畏。没有一个汇编是详尽无遗的，但我的目标是收集对您进行这项工作时有用和鼓励的信息。至少，它提供了一个资源、测试和参考材料的列表供您审阅。
 
-The study guides below have been updated for 2025, and now follow the (ISC)² updated objectives and the 10th edition of the Official Study Guide.
+下面的学习指南已经更新到2025年，现在遵循(ISC)²更新的目标和官方学习指南的第10版。
 
-Feel free to share this repo or any of the resources if you find them useful. Tell me about mistakes or improvements you think should be made!
-Connect with me on [LinkedIn](https://www.linkedin.com/in/jefferywmoore/).
+如果您觉得这些资源有用，请随时分享这个存储库或任何资源。告诉我您认为应该做的错误或改进！
+在[LinkedIn](https://www.linkedin.com/in/jefferywmoore/)上与我联系。
 
-## Table of contents
+## 目录
 
-- [Overview](#overview) of CISSP exam and content.
-- [Reference Material](#reference-material) including books, articles, courses, videos, and test banks.
-- [Study Guides By Domain](#study-guides-by-domain) built as I studied for the exam.
+- [概述](#概述) CISSP考试和内容。
+- [参考资料](#参考资料) 包括书籍、文章、课程、视频和题库。
+- [按领域划分的学习指南](#按领域划分的学习指南) 是我为考试学习时建立的。
 
-## Overview
+## 概述
 
-There is a lot of information on the CISSP exam available, including from (ISC)², associated & third-party instructors and authors, as well as guides put together by those in preparation. If you're just starting out, I'd recommend the [Sybex Study Guide and Practice Test bundle](https://amzn.to/3WpNWKM) (note that I get a small commission for purchases made through Amazon links).
+关于CISSP考试的信息很多，包括来自(ISC)²、相关和第三方教师和作者，以及由准备者整理的指南。如果您刚开始，我推荐[Sybex学习指南和实践测试捆绑包](https://amzn.to/3WpNWKM)（请注意，通过亚马逊链接购买，我会获得少量佣金）。
 
-- Who is qualified to obtain the CISSP certification? Candidates must have a minimum of five years cumulative paid work experience in two or more of the eight domains of the CISSP CBK. Earning a four-year college degree (or regional equivalent) or an additional credential from the (ISC)² approved list will satisfy one year of the required experience. Pursue associate if you have less than that.
+- 谁有资格获得CISSP认证？ 候选人必须在CISSP CBK的八个领域中的两个或多个领域拥有至少五年的累计带薪工作经验。获得四年制大学学位（或地区同等学历）或(ISC)²批准列表中的额外证书将满足一年的所需经验。如果您的经验不足，请追求准会员资格。
 
-- Think like an owner. The CISSP is a management-level certification. You're expected to understand concepts, and be able to synthesize and apply them from across knowledge domains. Thinking like a manager, CEO or owner means that you are a business enabler, finding solutions that reduce risk in a cost-effective manner. It means answering test questions from a management or ownership point of view. What choices maximize business outcomes? The board / senior management is relying on you to put security issues and options in business language, work to reduce risk, provide the governance and controls that will help the organization fulfill its mission, and achieve its goals. You are accountable (have ownership) for this process.
+- 像所有者一样思考。 CISSP是管理级别的认证。您需要理解概念，并能够综合和应用跨知识领域的概念。像经理、首席执行官或所有者一样思考意味着您是业务的推动者，以成本效益的方式寻找降低风险的解决方案。这意味着从管理或所有权的角度回答测试问题。哪些选择可以最大化业务成果？董事会/高级管理层依靠您用商业语言来表达安全问题和选项，努力降低风险，提供有助于组织完成其使命和实现其目标的治理和控制。您对这个过程负责（拥有所有权）。
 
-- General exam info
-  - You will have 3 hours to answer between 100-150 questions. You can pass/complete or fail in first 100 questions. If you go beyond 100, you are somewhere in between.
-  - All domains comprise between [10-16% of the total score](https://www.isc2.org/Insights/2023/11/Changes-to-CISSP-Exam-Weighting).
+- 一般考试信息
+  - 您将有3个小时的时间回答100-150个问题。您可以在前100个问题中通过/完成或失败。如果您超过100个问题，则介于两者之间。
+  - 所有领域占[总分的10-16%](https://www.isc2.org/Insights/2023/11/Changes-to-CISSP-Exam-Weighting)。
 
-- Test-taking strategies
-  - Take practice tests (see references below), and time yourself. You should get comfortable with the process, and the exam's proclivities (e.g. you can't skip and go back to a question, so answer and move on).
-  - During the exam, try reading the question without looking at the answers. In a perfect world, what is the best solution that answers the question or resolves the scenario? I found it helpful to skim the question, and then re-read it looking for key words (MOST important, BEST option etc).
-  - Now that you've read and processed the question, look at the potential answers. Remember that IRL, you might be able to apply several answers to satisfy the question. But in the test, you can only choose one! In other words, if it were your money or time being spent, which one provides the most "bang for the buck"? If needed, argue with each potential answer: does it meet all requirements in the question? Are any other answers more efficient for time and cost? Does one answer encompass the others?
-  - If you have no idea what the answer is, you can generally eliminate at least two answers by thinking about the language used in the question. For instance, the question could be asking for a technology, and two of the answers are about process. Try to avoid answers with absolutes. If you're still stumped look for one answer that stands out because it's not like the others.
-  - Remember that the first priority for any incident is saving human life.
-  - Finally, believe in yourself. Know that you are able to accomplish this! Trust the process: your study and preparation will pay off.
+- 应试策略
+  - 进行模拟测试（见下面的参考资料），并给自己计时。您应该适应这个过程和考试的倾向（例如，您不能跳过问题再返回，所以回答后继续前进）。
+  - 在考试期间，尝试在不看答案的情况下阅读问题。在理想世界中，回答问题或解决情景的最佳解决方案是什么？我发现先略读问题，然后重新阅读以寻找关键词（最重要的，最佳选项等）很有帮助。
+  - 现在您已经阅读并处理了问题，请查看可能的答案。请记住，在现实生活中，您可能可以应用多个答案来满足问题。但在考试中，您只能选择一个！换句话
+说，如果是您的钱或时间被花费，哪一个提供了最大的“性价比”？如果需要，与每个可能的答案进行辩论：它是否满足问题中的所有要求？是否有其他答案在时间和成本上更有效率？是否有一个答案包含了其他答案？
+  - 如果您不知道答案是什么，通常可以通过思考问题中使用的语言来排除至少两个答案。例如，问题可能在询问一种技术，而其中两个答案是关于过程的。尽量避免带有绝对词的答案。如果您仍然感到困惑，请寻找一个与其他答案不同的答案，因为它很突出。
+  - 请记住，任何事件的首要任务是拯救人的生命。
+  - 最后，相信自己。知道您能够完成这项任务！相信这个过程：您的学习和准备将会有回报。
 
-- Questions to ask on Material Coverage: common challenges during exam preparation relate to things like finding best resources for the way you learn, and staying on track. There is a large amount of preparation required to be ready for the exam, and it can be tough to know if you're covering the right material, in enough depth, and at the right pace. It can also be challenging to stay accountable during your preparation.
-  - Ways to tackle this challenge include staying in touch with others in the community who are also preparing to take the exam (see General & Communities section below). Ask yourself how different concepts relate, and look for areas across domains that are referential. Use test banks to find areas where you need further study.
-- Questions to ask on learning resources: aligning resources with the way you best learn is important. For me, reading, and writing out concepts helps me internalize them. Audio or videos help reinforce what I've learned. Your best learning modalities may be the opposite of mine. But it's important to recognize and pursue the types of resources that best help you learn. See the areas below for different types that may best meet your needs.
-- My Approach: in preparing for the exam, I drew from a variety of sources to get a balanced viewpoint. I've used the Sybex Official Study Guide as my baseline, incorporating other material (such as the All-in-One guide by Maymi, Harris et al. -- see below) to supplement with alternative explanations. Pete Zerger's Exam Cram, and Destination Certification's Mindmap YT videos are good resources that can help you keep perspective on what's important. For testing, I used the OSG practice tests to start, then incorporated Learnzapp, and finally QuantumExams to gauge weak areas.
-- Memorization approach: my memorization techniques include using acronyms to remember items in a list, and creating visualizations and picmonics to aid recall. Don't discount mindmaps and diagrams to help in keeping track of how areas or components fit together. Verbalizing answers via flashcards or studying with a friend (instead of just passively reading) can provide an additional channel to help your brain synthesize the material.
+- 关于材料覆盖范围的问题：考试准备期间的常见挑战涉及如何为您学习的方式找到最佳资源，并保持在正轨上。准备考试需要大量的准备工作，很难知道您是否覆盖了正确的材料，深度是否足够，以及节奏是否正确。在准备过程中保持责任感也可能具有挑战性。
+  - 解决这个挑战的方法包括与社区中同样准备参加考试的其他人保持联系（见下面的一般和社区部分）。问问自己不同的概念是如何关联的，并寻找跨领域相互引用的领域。使用题库来发现您需要进一步学习的领域。
+- 关于学习资源的问题：将资源与您最佳学习方式相匹配非常重要。对我来说，阅读和写出概念可以帮助我内化它们。音频或视频有助于巩固我所学到的知识。您最好的学习方式可能与我的相反。但重要的是要认识到并追求最能帮助您学习的资源类型。请参阅下面的领域，了解可能最能满足您需求的不同类型。
+- 我的方法：在准备考试时，我从各种来源汲取信息，以获得平衡的观点。我使用Sybex官方学习指南作为我的基线，并结合其他材料（例如Maymi，Harris等人的All-in-One指南——见下文）以提供替代解释。Pete Zerger的Exam Cram和Destination Certification的Mindmap YT视频是很好的资源，可以帮助您保持对重要内容的看法。在测试方面，我开始使用OSG模拟测试，然后结合Learnzapp，最后使用QuantumExams来评估薄弱环节。
+- 记忆方法：我的记忆技巧包括使用首字母缩略词来记住列表中的项目，以及创建可视化和图片助记法来帮助回忆。不要低估思维导图和图表在帮助跟踪领域或组件如何组合在一起方面的作用。通过抽认卡或与朋友一起学习来口头表达答案（而不是仅仅被动地阅读）可以提供一个额外的渠道来帮助您的大脑综合材料。
 
-## Reference Material
+## 参考资料
 
-- Books:
-  - As mentioned above, the Certified Information Systems Security Professional, [Official Study Guide (10th edition) and Practice Tests](https://amzn.to/3WpNWKM) is a great study baseline, with 100 questions for each of the 8 domains & more than 1300 questions total.
-  - [CISSP All-in-One Exam Guide](https://amzn.to/3AraOCd) (currently Ninth Edition is available, from May, 2023) - I've found the book valuable, as it reinforces core concepts, and provides additional clear explanations to supplement the OSG.
-  - [11th Hour CISSP:Study Guide, 3rd Edition](https://amzn.to/3Bkz4Xf) this book is a bit older, but it's compact, and prep'd "for ease of last-minute studying."
-- Courses/videos:
-  - Thor Teaches:
-    - [Thor Teaches CISSP Study Bundles](https://thorteaches.com/cissp/)
-    - [Daily CISSP Questions](https://thorteaches.com/free-daily-cissp-questions/)
-  - [Destination Certification MindMaps](https://www.youtube.com/playlist?list=PLZKdGEfEyJhLd-pJhAD7dNbJyUgpqI4pu) these help connect key topics.
-- Mobile Apps:
-  - I've found the [Learnzapp](https://www.learnzapp.com/apps/cissp/) to be useful, with study questions, flashcards, and practice tests (note that you'll need a subscription to take advantage of most of these features).
-  - [Destination Certification app](https://destcert.com/destcert-app/) is a great resource with flashcards, acronyms, and glossary.
-- Practice Tests:
-  - OSG and All-in-One Exam Guide practice tests: once you've traversed the OSG material, these tests are a good baseline.
-  - [CISSP Exam Prep](https://cissprep.net/) users have commented on the "tricky questions" in this test bank; that might be a distraction or conversely force you to pay closer attention, depending on your POV; note that you'll need a subscription ($24.99 for 6 months).
-  - [CertPreps](https://certpreps.com/cissp/) user comments range from "very realistic" to "will make you worry unnecessarily." Many questions focus on identifying the "most" significant/effective strategy/benefit, or "highest" priority.
-  - [CCCure](https://cccure.education/certification/certificate-detail/isc2-cissp-latest-cbk-2024) freepracticetests.org redirects to CCCure, which requires a subscription (from single-user 1 month @ $59.99 to 12 months @ $149.99). I took a practice test and found it underwhelming, but YMMV.
-  - [QuantumExams](https://exams.quantumexams.com/) helps to identify where you need work on understanding concepts holistically. The questions are challenging, but scenarios and descriptions are more like the exam than other tests.
-- General & Communities:
-  - [Understand Bloom's Taxonomy](https://asc.dso.iastate.edu/files/documents/Exam%20prep-%20how%20to%20study%20with%20Bloom%26%23039%3Bs%20taxonomy.pdf): a framework used by educators and exam creators to guide learning or exam objectives. Cross-reference words used in the exam objectives with the framework to understand the specific meaning, and to guide the level of study required to master.
-  - [CISSP Study Group](https://www.skool.com/cissp): this is a great place to share resources, get advice, and connect with peers studying cybersecurity.
-  - Head over to the [Certstation](https://discord.gg/certstation#cissp) for support and communion with fellow travelers.
+- 书籍：
+  - 如上所述，注册信息系统安全专家[官方学习指南（第10版）和实践测试](https://amzn.to/3WpNWKM)是一个很好的学习基线，每个8个领域有100个问题，总共有超过1300个问题。
+  - [CISSP All-in-One考试指南](https://amzn.to/3AraOCd)（目前第九版可用，自2023年5月起）——我发现这本书很有价值，因为它加强了核心概念，并提供了额外的清晰解释来补充OSG。
+  - [第11小时CISSP：学习指南，第3版](https://amzn.to/3Bkz4Xf) 这本书有点旧，但它很紧凑，并且为“最后一分钟学习的便利性”做好了准备。
+- 课程/视频：
+  - Thor Teaches：
+    - [Thor Teaches CISSP学习捆绑包](https://thorteaches.com/cissp/)
+    - [每日CISSP问题](https://thorteaches.com/free-daily-cissp-questions/)
+  - [Destination Certification思维导图](https://www.youtube.com/playlist?list=PLZKdGEfEyJhLd-pJhAD7dNbJyUgpqI4pu) 这些有助于连接关键主题。
+- 移动应用程序：
+  - 我发现[Learnzapp](https://www.learnzapp.com/apps/cissp/)很有用，有学习问题、抽认卡和模拟测试（请注意，您需要订阅才能利用其中的大部分功能）。
+  - [Destination Certification应用程序](https://destcert.com/destcert-app/)是一个很好的资源，有抽认卡、首字母缩略词和词汇表。
+- 模拟测试：
+  - OSG和All-in-One考试指南模拟测试：一旦您学习了OSG材料，这些测试就是一个很好的基线。
+  - [CISSP考试准备](https://cissprep.net/) 用户评论了这个题库中的“棘手问题”；这可能会分散您的注意力，或者反过来迫使您更加关注，具体取决于您的观点；请注意，您需要订阅（6个月24.99美元）。
+  - [CertPreps](https://certpreps.com/cissp/) 用户评论从“非常现实”到“会让您不必要地担心”。许多问题都集中在确定“最”重要/有效/的策略/好处，或“最高”优先级。
+  - [CCCure](https://cccure.education/certification/certificate-detail/isc2-cissp-latest-cbk-2024) freepracticetests.org重定向到CCCure，这需要订阅（从单用户1个月59.99美元到12个月149.99美元）。我参加了一次模拟测试，觉得它平淡无奇，但您的体验可能会有所不同。
+  - [QuantumExams](https://exams.quantumexams.com/) 有助于确定您在整体理解概念方面需要加强的地方。这些问题具有挑战性，但情景和描述比其他测试更像考试。
+- 一般和社区：
+  - [了解布鲁姆分类法](https://asc.dso.iastate.edu/files/documents/Exam%20prep-%20how%20to%20study%20with%20Bloom%26%23039%3Bs%20taxonomy.pdf)：教育工作者和考试创建者用来指导学习或考试目标的框架。将考试目标中使用的词语与框架进行交叉引用，以理解具体含义，并指导掌握所需学习的水平。
+  - [CISSP学习小组](https://www.skool.com/cissp)：这是分享资源、获取建议以及与研究网络安全的同行联系的好地方。
+  - 前往[Certstation](https://discord.gg/certstation#cissp)以获得支持并与同行交流。
 
-Note: You are advised to do your own analysis to determine what will be helpful to you in your study. The author disclaims all warranties, express or implied, regarding the accuracy, adequacy, or completeness of the contents of this material and explicitly disclaims any implied warranties of merchantability or fitness for a particular purpose. The publisher/author shall not be held liable for any damages, whether direct, indirect, incidental, special, consequential, or punitive.
+注意：建议您自行分析，以确定对您的学习有帮助的内容。作者对本材料内容的准确性、充分性或完整性不作任何明示或暗示的保证，并明确否认任何关于适销性或适用于特定目的的暗示保证。出版商/作者对任何损害，无论是直接的、间接的、偶然的、特殊的、后果性的还是惩罚性的，概不负责。
 
-## Study Guides By Domain
+## 按领域划分的学习指南
 
-- [Domain 1 - Security and Risk Management](CISSP-Domain-1-2024+Objectives.md)
-- [Domain 2 - Asset Security](CISSP-Domain-2-2024+Objectives.md)
-- [Domain 3 - Security Architecture and Engineering](CISSP-Domain-3-2024+Objectives.md)
-- [Domain 4 - Communication and Network Security](CISSP-Domain-4-2024+Objectives.md)
-- [Domain 5 - Identity and Access Management (IAM)](CISSP-Domain-5-2024+Objectives.md)
-- [Domain 6 - Security Assessment and Testing](CISSP-Domain-6-2024+Objectives.md)
-- [Domain 7 - Security Operations](CISSP-Domain-7-2024+Objectives.md)
-- [Domain 8 - Software Development Security](CISSP-Domain-8-2024+Objectives.md)
-- [Domain Objectives combined PDF download](https://balancedsec.gumroad.com/)
+- [领域1 - 安全与风险管理](CISSP-Domain-1-2024+Objectives_zh.md)
+- [领域2 - 资产安全](CISSP-Domain-2-2024+Objectives_zh.md)
+- [领域3 - 安全架构与工程](CISSP-Domain-3-2024+Objectives_zh.md)
+- [领域4 - 通信与网络安全](CISSP-Domain-4-2024+Objectives_zh.md)
+- [领域5 - 身份与访问管理(IAM)](CISSP-Domain-5-2024+Objectives_zh.md)
+- [领域6 - 安全评估与测试](CISSP-Domain-6-2024+Objectives_zh.md)
+- [领域7 - 安全运营](CISSP-Domain-7-2024+Objectives_zh.md)
+- [领域8 - 软件开发安全](CISSP-Domain-8-2024+Objectives_zh.md)
+- [领域目标合并PDF下载](https://balancedsec.gumroad.com/)
